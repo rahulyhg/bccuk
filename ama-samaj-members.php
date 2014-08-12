@@ -7,8 +7,9 @@ $page = 'members';
 				<div class="row">
 					<div class="col-md-8">
 					<!-- Main content -->
+						
+						<div class="panel panel-home representative">
 						<h1>BCCUK Ama Samaj Members</h1>
-						<div class="panel panel-default representative">
 						  <!-- Default panel contents -->
 						  <!-- <div class="panel-heading">BCCUK Ama Samaj Members</div> -->
 

@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-	<title>BCCUK</title>
+	<title>The Buddhist community centre in UK - BCCUK</title>
 	<meta name="description" content="The Buddhist community centre in UK">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -41,12 +41,13 @@
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="col-1"><span>&nbsp;</span><a href="about">About</a></li>
-							<li class="col-2"><span>&nbsp;</span><a href="services.php">Services</a></li>
-							<li class="col-3"><span>&nbsp;</span><a href="news.html">News</a></li>
-							<li class="col-4"><span>&nbsp;</span><a href="constitution.html">Constitution</a></li>
-							<li class="col-1"><span>&nbsp;</span><a href="executive-members">Members</a></li>
-							<li class="col-5"><span>&nbsp;</span><a href="contact.html">Contact</a></li>
+							<li class="col-1"><span>&nbsp;</span><a href="/bccuk">Home</a></li>
+							<li class="col-2"><span>&nbsp;</span><a href="about">About</a></li>
+							<li class="col-3"><span>&nbsp;</span><a href="services">Services</a></li>
+							<li class="col-4"><span>&nbsp;</span><a href="news">News</a></li>
+							<!-- <li class="col-1"><span>&nbsp;</span><a href="constitution">Constitution</a></li> -->
+							<li class="col-2"><span>&nbsp;</span><a href="executive-members">Members</a></li>
+							<li class="col-3"><span>&nbsp;</span><a href="contact">Contact</a></li>
 
 						</ul>
 
@@ -56,7 +57,7 @@
 		</nav>
 
 		<?php 
-		if ($page == 'home') {
+		if ($page == 'home' || $page == 'members') {
 		?>
 		<header>
 			<div class="sct-banner sct-banner-full">
@@ -78,7 +79,7 @@
 							<div class="col-md-10 colbg1 fade-in one">
 
 								<h1 class="sct-banner-h1" style="text-align:left">
-								Enhancing &amp; supporting <br> the <strong>Buddhist</strong> community in UK</h1>
+								Enhancing &amp; supporting <br> the <strong>Buddhist</strong> community centre in UK</h1>
 							</div>	
 						</div>
 					</div>
@@ -87,11 +88,22 @@
 
 		</header>
 		<?php 
+		} elseif ($page == 'contact') {
+		?>
+			<header>
+				<div class="sct-banner sct-banner-full">
+					<div class="static-img <?=$page ?>">
+						<iframe width="100%" height="380" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=GU11%201TW&key=AIzaSyALwJ1TnLRfib4_zpmnmgh_7XyVGLXPhvY"></iframe>
+				  	</div>
+				</div>
+			</header>
+			
+		<?php 
 		} else {
 		?>
 			<header>
 				<div class="sct-banner sct-banner-full">
-					<div class="static-img about">
+					<div class="static-img <?=$page ?>">
 						&nbsp;
 				  	</div>
 				</div>
@@ -103,24 +115,8 @@
 			<div class="container">	
 				<div class="col-md-12">
 					<div class="flexslider metaSlider">
-						<ul class="slides" style="width: 1000%; -webkit-transition: 0.6s; transition: 0.6s; -webkit-transform: translate3d(-2880px, 0px, 0px);">
-							<li class="clone" aria-hidden="true" style="width: 960px; float: left; display: block;">
-								<a href="" title="">
-								<p><strong>Dashami Puja</strong> - Tuesday, 5 August</p>
-								</a>
-							</li>
-
-							<li class="">
-								<a href="" title="">
-								<p><strong>Krishna Panchami Puja</strong> - Friday, 15 August</p>
-							</a>
-							</li>
-
-							<li class="">
-								<a href="" title="">
-								<p><strong>Dharma Teaching</strong> - Sunday, 17 August</p>
-							</a>
-							</li>						
+						<ul id="events-slide" class="slides" style="width: 1000%; -webkit-transition: 0.6s; transition: 0.6s; -webkit-transform: translate3d(-2880px, 0px, 0px);">
+								
 						</ul>
 					</div><!--div-->
 				</div>

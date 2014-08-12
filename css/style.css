@@ -868,8 +868,8 @@ p.text-center {
 	margin:0;
 	padding:0;
 	display: block;
-	min-height: 550px;
-	height: 602px;
+	min-height: 450px;
+	height: 450px;
 	height:97vh;
 }
 
@@ -1423,13 +1423,17 @@ div.panel-home h1 {
 	margin-bottom: 30px;
 }
 
-ul.members {
+div.panel-home.representative h1 {
+	margin: 20px 0 40px 0;
+}
+
+ul.members, ul.block {
 	margin: 0;
 	padding: 0;
 	list-style:none;
 }
 
-ul.members li {
+ul.members li, ul.block li {
 	float: left;
 	width: 45%;
 	display: block;
@@ -1439,6 +1443,11 @@ ul.members li {
 	border-left-width: 5px;
 	border-radius: 3px;
 	border-size: none;
+}
+
+ul.block li {
+	width: 90%;
+	padding: 0 20px;
 }
 
 ul.members li img {

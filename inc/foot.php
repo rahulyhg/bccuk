@@ -129,19 +129,33 @@
     var feed = root.feed;
     var entries = feed.entry || [];
     var str = "";
+    var flash_str = "";
 
     for (var i = 0; i < entries.length; ++i) {
       var entry = entries[i];
       var title = (entry.title.type == 'html') ? entry.title.$t : escape(entry.title.$t);
       var start = (entry['gd$when']) ? entry['gd$when'][0].startTime : "";	
-
-      str += '<a href="#" class="list-group-item"><h4 class="list-group-item-heading">' + unescape(title) + '</h4><p class="list-group-item-text">' + $.format.date(start, "ddd, dd MMMM") +  '</p></a>';
+      var formatted_date = $.format.date(start, "ddd, dd MMMM");
+      str += '<a href="#" class="list-group-item"><h4 class="list-group-item-heading">' + unescape(title) + '</h4><p class="list-group-item-text">' + formatted_date +  '</p></a>';
+      if (i < 3 )
+      	flash_str += '<li><a href="" title=""><p><strong>' + unescape(title) + '</strong> - ' + formatted_date + '</p></a></li>' 
     }
 
     $("#event-list").html(str);
+    $("#events-slide").html(flash_str);
+
   }
 </script>
-<script src="http://www.google.com/calendar/feeds/bccuk.co.uk%40gmail.com/public/full?alt=json-in-script&callback=listEvents"></script>
+<script src="http://www.google.com/calendar/feeds/bccuk.co.uk%40gmail.com/public/full?alt=json-in-script&callback=listEvents&orderby=starttime&sortorder=a"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-53772427-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 	</body>
 </html>
