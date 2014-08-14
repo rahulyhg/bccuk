@@ -79,7 +79,7 @@
 							<div class="col-md-10 colbg1 fade-in one">
 
 								<h1 class="sct-banner-h1" style="text-align:left">
-								Enhancing &amp; supporting <br> the <strong>Buddhist</strong> community centre in UK</h1>
+								Enhancing &amp; supporting <br> the <strong>Buddhist</strong> community centre UK</h1>
 							</div>	
 						</div>
 					</div>
