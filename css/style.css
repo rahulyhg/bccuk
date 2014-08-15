@@ -698,25 +698,7 @@ p.text-center {
 	width: 100%;
 }
 
-.nav li.col-1 span {
-	background: blue;
-}
 
-.nav li.col-2 span {
-	background: yellow;
-}
-
-.nav li.col-3 span {
-	background: red;
-}
-
-.nav li.col-4 span {
-	background: white;
-}
-
-.nav li.col-5 span {
-	background: red;
-}
 
 .nav-tabs > li, .nav-pills > li {
     float:none;
@@ -1438,7 +1420,7 @@ ul.members, ul.block {
 
 ul.members li, ul.block li {
 	float: left;
-	width: 45%;
+	width: 90%;
 	display: block;
 	padding: 10px 0;
 	margin: 10px 2% 10px 0;
@@ -1462,7 +1444,7 @@ ul.members li img.opa {
 }
 
 ul.members li h3 {
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0 10px;
 	margin: 0px;
 }
@@ -1583,9 +1565,6 @@ ul.members li p {
 		.nav-logo {
 			max-width: 104px;
 		}
-		.nav li.col span {
-			background: none !important;
-		}
 	}
 
 	/* Small Devices, Tablets */
@@ -1593,6 +1572,30 @@ ul.members li p {
 		.nav-logo {
 			max-width: 204px;
 
+		}
+
+		.nav li.col-1 span {
+			background: blue;
+		}
+
+		.nav li.col-2 span {
+			background: yellow;
+		}
+
+		.nav li.col-3 span {
+			background: red;
+		}
+
+		.nav li.col-4 span {
+			background: white;
+		}
+
+		.nav li.col-5 span {
+			background: red;
+		}
+
+		ul.members li, ul.block li {
+			width: 45%;
 		}
 		
 

@@ -19,7 +19,7 @@ $page = 'members';
 
 						    	<li>
 						    		<img src="images/members/kaji-sherpa2.png" alt="President - Kaji Sherpa" width="60" class="opa pull-left img-rounded">
-						    		<h3>Mr. Narayan Prasad Gurung</h3>
+						    		<h3>Mr. Narayan P. Gurung</h3>
 						    		<p>Vice President</p>
 						    	</li>
 
@@ -43,7 +43,7 @@ $page = 'members';
 
 						    	<li>
 						    		<img src="images/members/kaji-sherpa2.png" alt="Vice Treasurer - Mr. Harka Bahadur Gurung" width="60" class="opa pull-left img-rounded">
-						    		<h3>Mr. Harka Bahadur Gurung</h3>
+						    		<h3>Mr. Harka B. Gurung</h3>
 						    		<p>Vice Treasurer</p>
 						    	</li>
 
@@ -55,7 +55,7 @@ $page = 'members';
 
 						    	<li>
 						    		<img src="images/members/kaji-sherpa2.png" alt="Public Relation - Mrs. Nanda Kumari Gurung" width="60" class="opa pull-left img-rounded">
-						    		<h3>Mrs. Nanda Kumari Gurung</h3>
+						    		<h3>Mrs. Nanda K. Gurung</h3>
 						    		<p>Public Relation</p>
 						    	</li>
 
