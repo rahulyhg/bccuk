@@ -97,6 +97,7 @@
 		
 			$(document).ready(function(){
 				$(".flexslider").flexslider({animation:"slide"});
+				$(".video-slider").flexslider({animation:"slide", slideshow: false});
 
 			})
 
@@ -109,6 +110,14 @@
 			      items : 3,
 			      itemsDesktop : [1199,3],
 			      itemsDesktopSmall : [979,3]
+			 
+			  });
+			  $("#owl-video-demo").owlCarousel({
+			 
+			      navigation : true, // Show next and prev buttons
+			      slideSpeed : 300,
+			      paginationSpeed : 400,
+			      singleItem:true
 			 
 			  });
  			});
@@ -135,11 +144,11 @@
       var entry = entries[i];
       var title = (entry.title.type == 'html') ? entry.title.$t : escape(entry.title.$t);
       var start = (entry['gd$when']) ? entry['gd$when'][0].startTime : "";	
-      var formatted_date = $.format.date(start, "ddd, dd MMMM");
-      if (i < 6 )
-      	str += '<a href="#" class="list-group-item"><h4 class="list-group-item-heading">' + unescape(title) + '</h4><p class="list-group-item-text">' + formatted_date +  '</p></a>';
+      var formatted_date = $.format.date(start, "ddd, dd MMMM - h a");
+      if (i < 4 )
+      	str += '<a href="events" class="list-group-item"><h4 class="list-group-item-heading">' + unescape(title) + '</h4><p class="list-group-item-text">' + formatted_date +  '</p></a>';
       if (i < 3 )
-      	flash_str += '<li><a href="" title=""><p><strong>' + unescape(title) + '</strong> - ' + formatted_date + '</p></a></li>' 
+      	flash_str += '<li><a href="events" title=""><p><strong>' + unescape(title) + '</strong> - ' + formatted_date + '</p></a></li>' 
     }
 
     $("#event-list").html(str);

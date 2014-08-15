@@ -12,8 +12,10 @@
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
-	<link href="css/style.css" rel="stylesheet">
+	
 	<link href="css/slideshow.css" rel="stylesheet">
+	<!-- <link href="css/flexslider.css" rel="stylesheet"> -->
+	<link href="css/style.css" rel="stylesheet">
 
 
 </head>
@@ -43,7 +45,7 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li class="col-1"><span>&nbsp;</span><a href="/bccuk">Home</a></li>
 							<li class="col-2"><span>&nbsp;</span><a href="about">About</a></li>
-							<li class="col-3"><span>&nbsp;</span><a href="services">Services</a></li>
+							<li class="col-3"><span>&nbsp;</span><a href="events">Events</a></li>
 							<li class="col-4"><span>&nbsp;</span><a href="news">News</a></li>
 							<!-- <li class="col-1"><span>&nbsp;</span><a href="constitution">Constitution</a></li> -->
 							<li class="col-2"><span>&nbsp;</span><a href="executive-members">Members</a></li>
@@ -63,6 +65,12 @@
 			<div class="sct-banner sct-banner-full">
 				<div class="sct-banner-back">
 					<ul class="cb-slideshow">
+						<li>
+							<div class="static-img <?=$page ?> video-container">
+						<iframe width="100%" height="360" src="//www.youtube.com/embed/YiYBal0lVl8?rel=0" frameborder="0" allowfullscreen></iframe>
+				  	</div>
+
+						</li>
 				  		<li><span class="img-1">Image 01</span></li>
 				  		<li><span class="img-2">Image 02</span></li>
 				  		<li><span class="img-3">Image 03</span></li>
@@ -97,6 +105,16 @@
 				  	</div>
 				</div>
 			</header>
+		<?php 
+		} elseif ($page == 'events' || $page == 'about') {
+		?>
+			<header>
+				<div class="sct-banner sct-banner-full">
+					<div class="static-img <?=$page ?> video-container">
+						<iframe width="100%" height="360" src="//www.youtube.com/embed/YiYBal0lVl8?rel=0" frameborder="0" allowfullscreen></iframe>
+				  	</div>
+				</div>
+			</header>
 			
 		<?php 
 		} else {
@@ -104,7 +122,7 @@
 			<header>
 				<div class="sct-banner sct-banner-full">
 					<div class="static-img <?=$page ?>">
-						&nbsp;
+						
 				  	</div>
 				</div>
 			</header>

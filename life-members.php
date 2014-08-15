@@ -69,7 +69,7 @@ $page = 'members';
                 <tr>
                   <td height="33" width="30" align="center">8</td>
                   <td width="252">Mrs Yangdi Sherpa</td>
-                  <td width="225" align="center">,,</td>
+                  <td width="225">Camberley, GU15 4LJ</td>
                   
                 </tr>
                 <tr>
@@ -1319,7 +1319,7 @@ $page = 'members';
                 </tr>
                 <tr>
                   <td height="33" align="right">213</td>
-                  <td width="252">Mr Amir Gurung&nbsp;</td>
+                  <td width="252">Mr Amir Gurung</td>
                   <td width="225">Folkestone CT20 3LN</td>
                   
                 </tr>
@@ -1332,7 +1332,7 @@ $page = 'members';
                 <tr>
                   <td height="33">215</td>
                   <td width="252">Master Dorje Choekyong Gurung</td>
-                  <td width="225">Folkestone&nbsp;&nbsp;</td>
+                  <td width="225">Folkestone</td>
                   
                 </tr>
                 <tr>
@@ -1350,13 +1350,13 @@ $page = 'members';
                 <tr>
                   <td height="33" align="right">218</td>
                   <td width="252">Mrs Pushpa Gurung</td>
-                  <td width="225">&nbsp;Aldershot GU11 3SJ</td>
+                  <td width="225">Aldershot GU11 3SJ</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="right">219</td>
                   <td width="252">Mrs Pramila Gurung</td>
-                  <td width="225">London E1 SRZ&nbsp;</td>
+                  <td width="225">London E1 SRZ</td>
                   
                 </tr>
                 <tr>
@@ -1368,12 +1368,12 @@ $page = 'members';
                 <tr>
                   <td height="33" align="center">221</td>
                   <td>Mrs Khadu Maya Gurung</td>
-                  <td width="225">Northolt    UB5 5AV</td>
+                  <td width="225">Northolt UB5 5AV</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">222</td>
-                  <td width="252">Mr Sam    Bahadur Gurung</td>
+                  <td width="252">Mr Sam Bahadur Gurung</td>
                   <td width="225">Farnborough GU14 8DX</td>
                   
                 </tr>
@@ -1481,7 +1481,7 @@ $page = 'members';
                 </tr>
                 <tr>
                   <td height="33" align="center">240</td>
-                  <td width="252">Dr Chandra Bdr Gurung&nbsp;</td>
+                  <td width="252">Dr Chandra Bdr Gurung</td>
                   <td width="225">Reading RG1 3LY</td>
                   
                 </tr>
@@ -1565,56 +1565,56 @@ $page = 'members';
                 </tr>
                 <tr>
                   <td height="33" align="center">254</td>
-                  <td width="252">Mrs Parmila Gurung&nbsp;</td>
-                  <td>Camberley GU15    4HD</td>
+                  <td width="252">Mrs Parmila Gurung</td>
+                  <td>Camberley GU15 4HD</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">255</td>
                   <td width="252">Mrs Pabitra Gurung</td>
-                  <td>Farnborough GU14    9QL</td>
+                  <td>Farnborough GU14 9QL</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">256</td>
                   <td width="252">Mrs Sati Kumari Gurung</td>
-                  <td>Camberley GU15    4EX</td>
+                  <td>Camberley GU15 4EX</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">257</td>
                   <td width="252">Mrs Ram Kumari Gurung</td>
-                  <td>Farnborough GU14    9QT</td>
+                  <td>Farnborough GU14 9QT</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">258</td>
                   <td width="252">Mrs Dhan Kumari Gurung</td>
-                  <td>Camberley GU15    4BG</td>
+                  <td>Camberley GU15 4BG</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">259</td>
                   <td width="252">Mr Krishna Bahadur Gurung</td>
-                  <td>Mytchett GU16    6EN</td>
+                  <td>Mytchett GU16 6EN</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">260</td>
                   <td width="252">Mrs Kalpana Gurung</td>
-                  <td>Mytchett GU16    6EN</td>
+                  <td>Mytchett GU16 6EN</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">261</td>
                   <td width="252">Mr Suraj Gurung</td>
-                  <td>Mytchett GU16    6EN</td>
+                  <td>Mytchett GU16 6EN</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">262</td>
                   <td width="252">Mr Ashok Gurung</td>
-                  <td>Mytchett GU16    6EN</td>
+                  <td>Mytchett GU16 6EN</td>
                   
                 </tr>
                 <tr>
@@ -1626,37 +1626,37 @@ $page = 'members';
                 <tr>
                   <td height="33" align="center">264</td>
                   <td width="252">Mrs Prem Kumari Gurung</td>
-                  <td>Folkestone, Kent    CT19 4LZ</td>
+                  <td>Folkestone, Kent CT19 4LZ</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">265</td>
                   <td width="252">Mr Gyam Bahadur Gurung</td>
-                  <td>Folkestone, Kent    CT19 4LZ</td>
+                  <td>Folkestone, Kent CT19 4LZ</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">266</td>
                   <td width="252">Mr Raj Bahadur Gurung</td>
-                  <td>Feltham,&nbsp; TW14 9HU</td>
+                  <td>Feltham, TW14 9HU</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">267</td>
                   <td width="252">Mrs Manju Gurung</td>
-                  <td>Feltham,&nbsp; TW14 9HU</td>
+                  <td>Feltham, TW14 9HU</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">268</td>
                   <td width="252">Mr Arjun Gurung</td>
-                  <td>Feltham,&nbsp; TW14 9HU</td>
+                  <td>Feltham, TW14 9HU</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">269</td>
                   <td width="252">Miss Laxmi Gurung</td>
-                  <td>Feltham,&nbsp; TW14 9HU</td>
+                  <td>Feltham, TW14 9HU</td>
                   
                 </tr>
                 <tr>
@@ -1668,133 +1668,133 @@ $page = 'members';
                 <tr>
                   <td height="33" align="center">271</td>
                   <td width="252">Mr Buddha Gurung</td>
-                  <td>Aldershot GU12    4EF</td>
+                  <td>Aldershot GU12 4EF</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">272</td>
                   <td width="252">Mrs Bimala Gurung</td>
-                  <td>Aldershot    GU112NF</td>
+                  <td>Aldershot GU11 2NF</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">273</td>
                   <td width="252">Mrs Suk Maya Gurung</td>
-                  <td>Farnborough GU14    8IN</td>
+                  <td>Farnborough GU14 8IN</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">274</td>
                   <td width="252">Mrs Bibi Maya Gurung</td>
-                  <td>Farnborough GU14    8IN</td>
+                  <td>Farnborough GU14 8IN</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">275</td>
                   <td width="252">Mr Lachhimi Bahadur Gurung</td>
-                  <td>Farnborough GU14    8IN</td>
+                  <td>Farnborough GU14 8IN</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">276</td>
                   <td width="252">Mrs Til Kumari Gurung</td>
-                  <td>Farnborough GU14    8IN</td>
+                  <td>Farnborough GU14 8IN</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">277</td>
                   <td width="252">Mr Narendra Gurung</td>
-                  <td>Farnborough GU14    8XJ</td>
+                  <td>Farnborough GU14 8XJ</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">278</td>
                   <td width="252">Mrs Krishna Kumari Gurung</td>
-                  <td>Farnborough GU14    8XJ</td>
+                  <td>Farnborough GU14 8XJ</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">279</td>
                   <td width="252">Mr Dhan Bahadur Gurung</td>
-                  <td>Aldershot GU11    1NE</td>
+                  <td>Aldershot GU11 1NE</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">280</td>
                   <td width="252">Mrs Santa Devi Gurung</td>
-                  <td>Aldershot GU11    1NE</td>
+                  <td>Aldershot GU11 1NE</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">281</td>
                   <td width="252">Mrs Usha Gurung</td>
-                  <td>North camp,    Farnb GU14 6AX</td>
+                  <td>North camp, Farnb GU14 6AX</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">282</td>
                   <td width="252">Mr Arkumar Gurung</td>
-                  <td>North camp,    Farnb GU14 6AX</td>
+                  <td>North camp, Farnb GU14 6AX</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">283</td>
                   <td width="252">Mr Dan Bahadur Gurung</td>
-                  <td>Aldershot GU11    1HS</td>
+                  <td>Aldershot GU11 1HS</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">284</td>
                   <td width="252">Mrs Krishna Kumari Gurung</td>
-                  <td>Aldershot GU11    1HS</td>
+                  <td>Aldershot GU11 1HS</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">285</td>
                   <td width="252">Mrs Kamala Kumari Gurung</td>
-                  <td>Aldershot GU11    1HS</td>
+                  <td>Aldershot GU11 1HS</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">286</td>
                   <td width="252">Mr Dil Bahadur Gurung</td>
-                  <td>Aldershot    GU111HJ</td>
+                  <td>Aldershot GU11 1HJ</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">287</td>
                   <td width="252">Mrs Chinta Kumari Gurung</td>
-                  <td>Aldershot GU11    1HJ</td>
+                  <td>Aldershot GU11 1HJ</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">288</td>
                   <td width="252">Mr Durga Bahadur Gurung</td>
-                  <td>Aldershot GU11    1HJ</td>
+                  <td>Aldershot GU11 1HJ</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">289</td>
                   <td width="252">Mr Gupta Bahadur Gurung</td>
-                  <td>Aldershot, GU12    4LE</td>
+                  <td>Aldershot, GU12 4LE</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">290</td>
                   <td width="252">Mrs Indra Kumari Gurung</td>
-                  <td>Aldershot GU12    4LE</td>
+                  <td>Aldershot GU12 4LE</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">291</td>
                   <td width="252">Mr Arjun Prasad Gurung</td>
-                  <td>Farnborough GU14    8HW</td>
+                  <td>Farnborough GU14 8HW</td>
                   
                 </tr>
                 <tr>
                   <td height="33" align="center">292</td>
                   <td width="252">Mr Rim Bahadur Gurung</td>
-                  <td>Farnborough GU14    8HW</td>
+                  <td>Farnborough GU14 8HW</td>
                   
                 </tr>
                 <tr>
@@ -1882,10 +1882,7 @@ $page = 'members';
                   
                 </tr>
                 <tr>
-                  <td height="33" align="center">&nbsp;</td>
-                  <td width="252">Registration received through Treasurer 2nd Apr 2011</td>
-                  <td>&nbsp;</td>
-                  
+                  <td colspan="3"><strong>Registration received through Treasurer 2nd Apr 2011</strong></td>
                 </tr>
                 <tr>
                   <td height="33" align="center">307</td>

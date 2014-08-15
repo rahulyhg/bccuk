@@ -17,6 +17,26 @@ $page = 'home';
 
 						<div class="panel panel-home">
 						 <div class="panel-body">
+						 	<h1>Recent Activities</h1>
+
+							<div class="video-slider">
+							 	<ul class="slides">
+							 	  <li>
+							 		<iframe width="640" height="360" src="//www.youtube.com/embed/YiYBal0lVl8?rel=0" frameborder="0" allowfullscreen></iframe>
+							 	  </li>
+							<!-- 	  <li>
+							 		<iframe src="//player.vimeo.com/video/46675854?portrait=0&amp;color=ff0179" width="710" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							 	  </li> -->
+							 <!-- 	  <li>
+							 	  	<a href="http://bccuk.co.uk/buddha%20Jayanti%202014%20-%20BCCUK/album/index.html"><img src="http://bccuk.co.uk/buddha%20Jayanti%202014%20-%20BCCUK/album/slides/IMG_8791.JPG" alt="Owl Image"><span class="caption">Buddha Jayanti 2014</span><span class="bg"></span></a>
+							 	  </li> -->
+							 	 </ul>
+						 	</div>
+						 </div>
+						</div>
+
+						<div class="panel panel-home">
+						 <div class="panel-body">
 						 	<h1>Photo Gallery</h1>
 						 	<!-- <iframe src="//player.vimeo.com/video/46675854?portrait=0&amp;color=ff0179" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 						 	<div id="owl-demo">
@@ -33,12 +53,7 @@ $page = 'home';
 						 </div>
 						</div>
 
-						<div class="panel panel-home">
-						 <div class="panel-body">
-						 	<h1>Recent Activities</h1>
-						 	<iframe src="//player.vimeo.com/video/46675854?portrait=0&amp;color=ff0179" width="710" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-						 </div>
-						</div>
+						
 							
 													
 					<!-- /Main content -->
