@@ -14,5 +14,12 @@
 	    	<p class="list-group-item-text">18.07.2014</p>
 	  	</a>
 	</div>
+	<div class="list-group highlight-link">
+		<a href="contact" class="list-group-item">
+	    	<h4 class="list-group-item-heading">Any Queries About Gumba Activities? </h4>
+	    	<p class="list-group-item-text">If you like to attend, organize puja or else Please contact us.</p>
+	  	</a>
+	 </div>
+
 </div><!-- /section -->
 
