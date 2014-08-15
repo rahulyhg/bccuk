@@ -20,7 +20,7 @@
 	    <h4 class="list-group-item-heading">Other Members</h4>
 	  </a>
 	  <a href="http://bccuk.co.uk/files/membership_form.pdf" target="_blank" class="list-group-item highlight">
-	    <h4 class="list-group-item-heading">New Member Form</h4>
+	    <h4 class="list-group-item-heading">New Membership Form <small>DOWNLOAD</small></h4>
 	  </a>
 	</div>
 </div><!-- /section -->
