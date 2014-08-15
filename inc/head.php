@@ -43,13 +43,13 @@
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="col-1"><span>&nbsp;</span><a href="/bccuk">Home</a></li>
-							<li class="col-2"><span>&nbsp;</span><a href="about">About</a></li>
-							<li class="col-3"><span>&nbsp;</span><a href="events">Events</a></li>
-							<li class="col-4"><span>&nbsp;</span><a href="news">News</a></li>
+							<li class="col col-1"><span>&nbsp;</span><a href="/bccuk">Home</a></li>
+							<li class="col col-2"><span>&nbsp;</span><a href="about">About</a></li>
+							<li class="col col-3"><span>&nbsp;</span><a href="events">Events</a></li>
+							<li class="col col-4"><span>&nbsp;</span><a href="news">News</a></li>
 							<!-- <li class="col-1"><span>&nbsp;</span><a href="constitution">Constitution</a></li> -->
-							<li class="col-2"><span>&nbsp;</span><a href="executive-members">Members</a></li>
-							<li class="col-3"><span>&nbsp;</span><a href="contact">Contact</a></li>
+							<li class="col col-2"><span>&nbsp;</span><a href="executive-members">Members</a></li>
+							<li class="col col-3"><span>&nbsp;</span><a href="contact">Contact</a></li>
 
 						</ul>
 
@@ -71,7 +71,7 @@
 				  	</div>
 
 						</li>
-				  		<li><span class="img-1">Image 01</span></li>
+				  		<li><span class="img-1">Image 01</span><h1 class="sct-banner-h1" style="text-align:left"></h1></li>
 				  		<li><span class="img-2">Image 02</span></li>
 				  		<li><span class="img-3">Image 03</span></li>
 				  		<li><span class="img-1">Image 01</span></li>
@@ -86,8 +86,7 @@
 
 							<div class="col-md-10 colbg1 fade-in one">
 
-								<h1 class="sct-banner-h1" style="text-align:left">
-								Enhancing &amp; supporting <br> the <strong>Buddhist</strong> community centre UK</h1>
+								<h1 class="sct-banner-h1" style="text-align:left">Enhancing &amp; supporting <br> the <strong>Buddhist</strong> community centre UK(BCCUK)</h1>
 							</div>	
 						</div>
 					</div>

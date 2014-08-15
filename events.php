@@ -58,8 +58,8 @@ $page = 'events';
 					</div>
 					<div class="col-md-4 sidebar">
 					<!-- Sidebar -->
-						<?php include("inc/news.php") ?>
-						<?php include("inc/events.php") ?>	
+						<?php include("inc/recent-events.php") ?>
+						<?php //include("inc/events.php") ?>	
 					<!-- /Sidebar -->
 					</div>
 				</div>

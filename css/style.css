@@ -917,7 +917,7 @@ p.text-center {
 		text-transform: uppercase;
 		position: relative;
 		top: 30px;
-		font-size: 36px;
+		font-size: 32px;
 
 	}
 
@@ -1246,6 +1246,9 @@ section.meta {
   position: absolute;
   top: 0;
 }
+
+
+
 @media only screen and (max-width: 479px) {
   .flexslider .flex-direction-nav a {
     top: 13px;
@@ -1556,8 +1559,83 @@ ul.members li p {
     height: 100%;
 }
 
+.navbar-inverse .navbar-toggle {
+	background-color: #660000;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
 
 
+
+/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		.nav-logo {
+			max-width: 104px;
+		}
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+		.nav-logo {
+			max-width: 104px;
+		}
+		.nav li.col span {
+			background: none !important;
+		}
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+		.nav-logo {
+			max-width: 204px;
+
+		}
+		
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
+
+
+
+	/*==========  Non-Mobile First Method  ==========*/
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (max-width : 480px) {
+
+	}
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) {
+		
+	}
 
 
 
