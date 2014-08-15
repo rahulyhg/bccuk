@@ -169,6 +169,58 @@ $page = 'members';
 							</div>
 						</div>
 
+						<div class="panel panel-default representative">
+						  <!-- Default panel contents -->
+						  <div class="panel-heading">Areas Representatives</div>
+
+						  <!-- Table -->
+						  <table class="table">
+						   	<tbody>
+					 			<tr>
+					 				<th>Area</th>
+					 				<th>Representatives</th>
+					 			</tr>
+					 			<tr>
+					 				<td>Folkstone</td>
+					 				<td>Mrs Indra Gurung</td>
+					 			</tr>
+					 			<tr>
+					 				<td>Bracknell</td>
+					 				<td>Mr. Naresh Gurung, Mr. Deb Gurung</td>
+					 			</tr>
+					 			<tr>
+					 				<td>Basingstoke</td>
+					 				<td>Mrs Meethu Gurung</td>
+					 			</tr>
+					 			<tr>
+					 				<td>Maidstone, Kent</td>
+					 				<td>Mrs Rajani Gurung</td>
+					 			</tr>
+					 			<tr>
+					 				<td>Farnborough</td>
+					 				<td>Mrs Pabitra Gurung</td>
+					 			</tr>
+					 			<tr>
+					 				<td>Farnborough (member)</td>
+					 				<td>Mrs Punam Gurung</td>
+					 			</tr>
+					 			<tr>
+					 				<td>Aldershot</td>
+					 				<td>Mrs Santi Gurung</td>
+					 			</tr>
+					 			<tr>
+					 				<td>Reading</td>
+					 				<td>Mrs Laxmi Gurung</td>
+					 			</tr>
+					 			<tr>
+					 				<td>Old Dean, Camberley</td>
+					 				<td>Mrs Durga Gurung</td>
+					 			</tr>
+
+					 		</tbody>
+						  </table>
+						</div>
+
 <!--
 
  
