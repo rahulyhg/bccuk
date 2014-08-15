@@ -1357,9 +1357,14 @@ a.list-group-item .list-group-item-heading {
 	margin-bottom: 0px;
 }
 
-a.list-group-item:hover, a.list-group-item:focus {
+a.list-group-item:hover, a.list-group-item:focus, .highlight-link a.list-group-item  {
 	background-color: #FFFFCC;
 }
+
+div.highlight-link a.list-group-item p.list-group-item-text {
+	color: #999999;
+}
+
 
 .list-group-item.highlight {
 	background-color: #660000;
@@ -1379,6 +1384,13 @@ a.list-group-item.highlight:hover, a.list-group-item.highlight:focus {
     background-image: none;
     background: #660000;
 }
+
+div.highlight-link a.list-group-item:hover, div.highlight-link a.list-group-item:focus {
+	/*background: none !important;*/
+	border: 1px solid #660000;
+}
+
+
 
 
 
@@ -1594,7 +1606,7 @@ ul.members li p {
 			background: red;
 		}
 
-		ul.members li, ul.block li {
+		ul.members li {
 			width: 45%;
 		}
 		
