@@ -12,13 +12,13 @@ $page = 'members';
 						 	<h1>Executive Members</h1>
 						    <ul class="members">
 						    	<li class="">
-						    		<img src="images/members/kaji-sherpa2.png" alt="President - Kaji Sherpa" width="60" class="pull-left img-rounded">
+						    		<img src="images/members/kaji-sherpa.jpg" alt="President - Kaji Sherpa" width="60" class="pull-left img-rounded">
 						    		<h3>Mr. Kaji Sherpa</h3>
 						    		<p>President</p>
 						    	</li>
 
 						    	<li>
-						    		<img src="images/members/kaji-sherpa2.png" alt="President - Kaji Sherpa" width="60" class="opa pull-left img-rounded">
+						    		<img src="images/members/kaji-sherpa2.png" alt="President - Narayan P. Gurung" width="60" class="opa pull-left img-rounded">
 						    		<h3>Mr. Narayan P. Gurung</h3>
 						    		<p>Vice President</p>
 						    	</li>
@@ -36,7 +36,7 @@ $page = 'members';
 						    	</li>
 
 						    	<li>
-						    		<img src="images/members/kaji-sherpa2.png" alt="Treasurer - Mr Naresh Gurung" width="60" class="opa pull-left img-rounded">
+						    		<img src="images/members/naresh-gurung.jpg" alt="Treasurer - Mr Naresh Gurung" width="60" class="pull-left img-rounded">
 						    		<h3>Mr. Naresh Gurung</h3>
 						    		<p>Treasurer</p>
 						    	</li>
@@ -183,7 +183,8 @@ $page = 'members';
 					</div>
 					<div class="col-md-4 sidebar">
 					<!-- Sidebar -->
-						<?php include("inc/member-types.php") ?>						
+						<?php include("inc/member-types.php") ?>
+						<?php include("inc/contact.php") ?>							
 					<!-- /Sidebar -->
 					</div>
 				</div>

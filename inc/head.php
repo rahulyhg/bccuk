@@ -1,8 +1,24 @@
+<?php
+function scan_dir($dir) {
+    $ignored = array('.', '..', '.svn', '.htaccess');
+
+    $files = array();    
+    foreach (scandir($dir) as $file) {
+        if (in_array($file, $ignored)) continue;
+        $files[$file] = filemtime($dir . '/' . $file);
+    }
+
+    arsort($files);
+    $files = array_keys($files);
+
+    return ($files) ? $files : false;
+}
+?>
 <!DOCTYPE html>
 <html>
 
 	<head>
-	<title>The Buddhist community centre in UK - BCCUK</title>
+	<title>The Buddhist community centre UK - BCCUK <?= isset($page) ? " - " . $page : '' ?> </title>
 	<meta name="description" content="The Buddhist community centre in UK">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -15,6 +31,7 @@
 	
 	<link href="css/slideshow.css" rel="stylesheet">
 	<!-- <link href="css/flexslider.css" rel="stylesheet"> -->
+	<link href="css/colorbox.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
 
@@ -43,9 +60,10 @@
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="col col-1"><span>&nbsp;</span><a href="/bccuk">Home</a></li>
+							<li class="col col-1"><span>&nbsp;</span><a href="/">Home</a></li>
 							<li class="col col-2"><span>&nbsp;</span><a href="about">About</a></li>
 							<li class="col col-3"><span>&nbsp;</span><a href="events">Events</a></li>
+							<li class="col col-1"><span>&nbsp;</span><a href="gallery.php">Gallery</a></li>
 							<li class="col col-4"><span>&nbsp;</span><a href="news">News</a></li>
 							<!-- <li class="col-1"><span>&nbsp;</span><a href="constitution">Constitution</a></li> -->
 							<li class="col col-2"><span>&nbsp;</span><a href="executive-members">Members</a></li>
@@ -140,3 +158,22 @@
 							
 			</div><!--container-->
 		</section>
+
+		<?php
+
+		$gdir = "activities";
+ 		$files = scan_dir($gdir);
+ 		$dir_list = array();
+
+    	foreach ($files as $file):
+        	$dir = $gdir . "/" . $file;
+        	if (is_dir($dir) && $file != '.' && $file != '..'): 
+        		array_push($dir_list, $file);
+        	endif; 
+		endforeach; 
+
+
+		?>
+
+
+

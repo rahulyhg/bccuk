@@ -21,8 +21,11 @@ $page = 'contact';
 						    		
 						    	</li>
 						    	<li class="">
-						    		<p>Phone: 07877 825939 </p>
-						  			<p>Email: <a href="mailto:info@bccuk.co.uk">info@bccuk.co.uk</a></p>
+						    		<p>Telephone: 0127622319<br/>
+									Facsimile: 0127622319<br/>
+									Chairman: 07500906674</br>
+						  			Email: <a href="mailto:info@bccuk.co.uk">info@bccuk.co.uk</a>
+						  			</p>
 						    	</li>
 
 						    	
