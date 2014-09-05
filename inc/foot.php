@@ -5,6 +5,7 @@
 <script src="js/holder.js"></script>
 <script src="owl-carousel/owl.carousel.js"></script>
 <script src="js/jquery-dateFormat.min.js"></script>
+<script src="js/jquery.colorbox-min.js"></script>
 
 
 				<footer class="navbar-fixed-bottom2" style="display: one;">
@@ -74,25 +75,25 @@
 	  	<script>
 
 			// Enable Tooltips
-			$("[data-toggle='tooltip']").tooltip();
+			// $("[data-toggle='tooltip']").tooltip();
 
-			$( document ).ready(function() {
-			  $("#expand-foot-detail").click(function(e){
-				  e.preventDefault();
-				  $("#foot-detail").slideToggle(200);
-			  });
-			});
+			// $( document ).ready(function() {
+			//   $("#expand-foot-detail").click(function(e){
+			// 	  e.preventDefault();
+			// 	  $("#foot-detail").slideToggle(200);
+			//   });
+			// });
 
-			$(document).ready(function(){
-				$("body").removeClass("preload");
+			// $(document).ready(function(){
+			// 	$("body").removeClass("preload");
 
-				$(".jump-next").click(function() {
-					$("html, body").animate({
-						scrollTop: $("section").offset().top-60
-					},450);
-				});
+			// 	$(".jump-next").click(function() {
+			// 		$("html, body").animate({
+			// 			scrollTop: $("section").offset().top-60
+			// 		},450);
+			// 	});
 
-			});
+			// });
 
 		
 			$(document).ready(function(){
@@ -117,10 +118,28 @@
 			      navigation : true, // Show next and prev buttons
 			      slideSpeed : 300,
 			      paginationSpeed : 400,
-			      singleItem:true
+			      singleItem:true,
+			      paginationNumbers : true,
+			      navigation : false
 			 
 			  });
+
+			  <?php
+			  	if (isset($dir_list) && count($dir_list) > 0) {
+			  		for ($x = 0; $x < count($dir_list); $x++) {
+			  ?>
+			  			$("a[rel='<?=$dir_list[$x]?>']").colorbox({maxWidth: "90%", maxHeight: "90%", opacity: ".5"});
+			  <?
+			  		}
+			  	} elseif ($is_gallery) {
+			  ?>
+			  		$("a[rel='<?=$gallery_name?>']").colorbox({maxWidth: "90%", maxHeight: "90%", opacity: ".5"});
+			  <?php
+			  	}
+			  ?>
+			  
  			});
+
 		
 
 

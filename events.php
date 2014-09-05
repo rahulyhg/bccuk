@@ -31,7 +31,7 @@ $page = 'events';
 						 </div>
 						</div>
 
-						<div class="panel panel-home">
+						<div class="panel panel-home" style="display: none;">
 						 <div class="panel-body">
 						 	<h1>Photo Gallery</h1>
 						 	<!-- <iframe src="//player.vimeo.com/video/46675854?portrait=0&amp;color=ff0179" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
@@ -60,6 +60,7 @@ $page = 'events';
 					<!-- Sidebar -->
 						<?php include("inc/recent-events.php") ?>
 						<?php //include("inc/events.php") ?>	
+						<?php include("inc/contact.php") ?>		
 					<!-- /Sidebar -->
 					</div>
 				</div>

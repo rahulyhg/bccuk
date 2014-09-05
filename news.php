@@ -22,6 +22,7 @@ $page = 'members';
 					<!-- Sidebar -->
 						<?php include("inc/news.php") ?>
 						<?php include("inc/events.php") ?>	
+						<?php include("inc/contact.php") ?>	
 					<!-- /Sidebar -->
 					</div>
 				</div>

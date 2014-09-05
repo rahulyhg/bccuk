@@ -1562,6 +1562,48 @@ ul.members li p {
 }
 
 
+.gallery h2 {
+	font-size: 24px;
+	letter-spacing: normal;
+	-webkit-text-stroke: none;
+}
+
+.gallery-summary #galleryFooter {
+	display: none;
+}
+
+#why-bccuk ul {
+	margin: 0 5px;
+	padding: 5px 10px;
+	/*background-color: #ccc;*/
+}
+
+#why-bccuk ul li {
+	list-style: none;
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+}
+
+#why-bccuk ul li span {
+	font-size: 16px;
+	color: #660000;
+	font-weight: normal;
+	padding-right: 10px;
+}
+
+#why-bccuk p.contact-us{
+	clear: both;
+	/*text-transform: uppercase;*/
+	padding: 5px 10px;
+	margin: 10px 0 0 0;
+	border-radius: 5px;
+	background-color: #ddd;
+	/*color: #ffffff;*/
+}
+
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -1581,6 +1623,9 @@ ul.members li p {
 
 	/* Small Devices, Tablets */
 	@media only screen and (min-width : 768px) {
+		#why-bccuk ul li { 
+			width: 48%;
+		}
 		.nav-logo {
 			max-width: 204px;
 

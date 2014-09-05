@@ -1,25 +1,18 @@
+<?php if (isset($dir_list) && count($dir_list) > 0) { ?>
 <div class="section">
 	<h3>Recent Events <!-- <small><a href="events">more</a></small> --></h3>
 	<div class="list-group" id="recent-event-list2">
-		<a href="new-temple-inauguration-aldershot" class="list-group-item">
-	    	<h4 class="list-group-item-heading">Inauguration of New Temple</h4>
-	    	<p class="list-group-item-text">18.07.2014</p>
+	<?php 
+	for ($x = 0; $x < count($dir_list); $x++) { 
+		$recent_event_name = ucwords(str_replace("-", " ", $dir_list[$x]));
+	?>
+		<a href="gallery.php?gallery=<?=$dir_list[$x]?>" class="list-group-item">
+	    	<h4 class="list-group-item-heading"><?=$recent_event_name?></h4>
+	    	<!-- <p class="list-group-item-text">18.07.2014</p> -->
 	  	</a>
-	  	<a href="new-temple-inauguration-aldershot" class="list-group-item">
-	    	<h4 class="list-group-item-heading">Buddha Jayanti Celebration 2014</h4>
-	    	<p class="list-group-item-text">18.07.2014</p>
-	  	</a>
-	  	<a href="new-temple-inauguration-aldershot" class="list-group-item">
-	    	<h4 class="list-group-item-heading">Charity Dinner Night 2014</h4>
-	    	<p class="list-group-item-text">18.07.2014</p>
-	  	</a>
+	<?php } ?>
+	  	
 	</div>
-	<div class="list-group highlight-link">
-		<a href="contact" class="list-group-item">
-	    	<h4 class="list-group-item-heading">Any Queries About Gumba Activities? </h4>
-	    	<p class="list-group-item-text">If you like to attend, organize puja or else Please contact us.</p>
-	  	</a>
-	 </div>
 
 </div><!-- /section -->
-
+<?php } ?>

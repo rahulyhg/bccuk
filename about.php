@@ -49,7 +49,8 @@ The dedication, motivation and hard work of the management committee are beginni
 					</div>
 					<div class="col-md-4 sidebar">
 					<!-- Sidebar -->
-						<?php include("inc/member-types.php") ?>						
+						<?php include("inc/member-types.php") ?>	
+						<?php include("inc/contact.php") ?>						
 					<!-- /Sidebar -->
 					</div>
 				</div>

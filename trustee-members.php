@@ -19,6 +19,7 @@ $page = 'members';
 						  <div class="panel-body2">
 						 	<!-- <h1>BCCUK Ama Samaj Members</h1> -->
 							  <!-- Table -->
+
 							 <table border="0" cellspacing="0" cellpadding="0" class="table">
 				   <colgroup>
 				      <col width="45">
@@ -3619,7 +3620,8 @@ Mrs Durga Gurung          Old Dean, Camberley
 					</div>
 					<div class="col-md-4 sidebar">
 					<!-- Sidebar -->
-						<?php include("inc/member-types.php") ?>						
+						<?php include("inc/member-types.php") ?>	
+						<?php include("inc/contact.php") ?>						
 					<!-- /Sidebar -->
 					</div>
 				</div>

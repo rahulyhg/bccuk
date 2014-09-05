@@ -11,7 +11,30 @@ $page = 'home';
 						<div class="panel panel-home">
 						 <div class="panel-body">
 						 	<h1>About Centre</h1>
-						    <p><img src="images/bccuk.jpg" class="img-responsive" alt="BCCUK" style=" float: left; margin: 0 10px 0 0; width: 40%; height: auto; border: 1px solid #660000;"> The Buddhist Community Centre UK is a nascent organisation with a mission to establish a Monastery, with an adjacent Community Centre, in the South East Region. </p><p>We are in the process of establishing, The Buddhist Community Centre UK. This will be a centre for all Buddhists and will be open to members of the public with an interest in Buddhism. &nbsp;<a href="about"><small>read more...</small></a></p>
+						    <p><img src="images/bccuk.jpg" class="img-responsive" alt="BCCUK" style="float: left; margin: 0 10px 0 0; width: 40%; height: auto; border: 1px solid #660000;"> The Buddhist Community Centre UK is a nascent organisation with a mission to establish a Monastery, with an adjacent Community Centre, in the South East Region. </p><p>We are in the process of establishing, The Buddhist Community Centre UK. This will be a centre for all Buddhists and will be open to members of the public with an interest in Buddhism. &nbsp;<a href="about"><small>read more...</small></a></p>
+						 </div>
+						</div>
+
+						<div class="panel panel-home" style="display: one;">
+						 <div class="panel-body" id="why-bccuk">
+						 	<h1>BCCUK Uses &amp; Activities</h1>
+						 	<p>The Buddhist Community Centre UK(BCCUK) usually perform following activities as the place for</p>
+						 	<ul class="clearfix">
+						 		<li><span class="glyphicon glyphicon-pushpin"></span>Celebrations at occasions &amp; traditions</li>
+						 		<li class=""><span class="glyphicon glyphicon-pushpin"></span>Buddhist Teaching</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Meditation</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Naming Ceremony</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Wedding Ceremony</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Ritual Ceremony</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Other Cultural Activities, Pujas</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Social Activities</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Counseling Service</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Nepalese Language classes</li>
+								<li><span class="glyphicon glyphicon-pushpin"></span>Family function or party</li>
+								<li class=""><span class="glyphicon glyphicon-pushpin"></span>Integration programme <br/>with local communities and other faiths</li>
+						 	</ul>
+						 	<p class="contact-us">Please <a href="contact">contact us</a> if you have any queries.</p>
+
 						 </div>
 						</div>
 
@@ -35,7 +58,9 @@ $page = 'home';
 						 </div>
 						</div>
 
-						<div class="panel panel-home">
+						
+
+						<div class="panel panel-home" style="display: none;">
 						 <div class="panel-body">
 						 	<h1>Photo Gallery</h1>
 						 	<!-- <iframe src="//player.vimeo.com/video/46675854?portrait=0&amp;color=ff0179" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
@@ -62,6 +87,7 @@ $page = 'home';
 					<!-- Sidebar -->
 						<?php include("inc/news.php") ?>
 						<?php include("inc/events.php") ?>	
+						<?php include("inc/contact.php") ?>	
 					<!-- /Sidebar -->
 					</div>
 				</div>

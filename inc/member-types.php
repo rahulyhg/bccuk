@@ -10,13 +10,13 @@
 	  <a href="#" class="list-group-item">
 	    <h4 class="list-group-item-heading">Youth Group Committee Members</h4>
 	  </a>
-	  <a href="#" class="list-group-item">
+	  <a href="trustee-members" class="list-group-item">
 	    <h4 class="list-group-item-heading">Trustee Members</h4>
 	  </a>
 	  <a href="life-members" class="list-group-item">
 	    <h4 class="list-group-item-heading">Life Members</h4>
 	  </a>
-	  <a href="#" class="list-group-item">
+	  <a href="other-members" class="list-group-item">
 	    <h4 class="list-group-item-heading">Other Members</h4>
 	  </a>
 	  <a href="http://bccuk.co.uk/files/membership_form.pdf" target="_blank" class="list-group-item highlight">
