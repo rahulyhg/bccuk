@@ -15,10 +15,28 @@ $page = 'members';
 						<h1>BCCUK Trustee Members</h1>
 						  <!-- Default panel contents -->
 						  <!-- <div class="panel-heading">BCCUK Ama Samaj Members</div> -->
+						  <div class="panel panel-default">
+							  <div class="panel-heading">Name starts with</div>
+							  <div class="panel-body">
+							     <ul class="nav nav-pills">
+							  <?php
+							  foreach(range('A','Z') as $i) {
+								  //if(strpos($string, $i) !== FALSE) {
+							?>
+								<li><a href="#<?= $i; ?>"><?= $i; ?></a></li>
+							<?php
+								  //}
+								}
+							  ?>
+							  </ul>
+							  </div>
+							</div>
 
-						  <div class="panel-body2">
+
+						  <div class="panel-body2" style="margin-top: 20px;">
 						 	<!-- <h1>BCCUK Ama Samaj Members</h1> -->
 							  <!-- Table -->
+							 
 
 							 <table border="0" cellspacing="0" cellpadding="0" class="table">
 				   <colgroup>
@@ -39,7 +57,7 @@ $page = 'members';
 				         <th>PAID ON</th>
 				      </tr>
 				      <tr class="Table11">
-				         <td>1</td>
+				         <td>1<a name="A"></a></td>
 				         <td>Acharya Chhewag Ghale (Guru)</td>
 				         <td>68</td>
 				         <td>Cattrick</td>
@@ -188,7 +206,7 @@ $page = 'members';
 				         <td>09/04/2014   </td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>19</td>
+				         <td>19<a name="B"></a></td>
 				         <td>Badam Gurung<br/>Mrs Shivakumari Gurung</td>
 				         <td>376</td>
 				         <td>Burnt Ok</td>
@@ -461,7 +479,7 @@ $page = 'members';
 				         <td>22-05013</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>51</td>
+				         <td>51<a name="C"></a></td>
 				         <td>Chak Bhadur Gurung<br/>Mrs Hema Gurung</td>
 				         <td>70</td>
 				         <td>Woking</td>
@@ -613,7 +631,7 @@ $page = 'members';
 				         <td>17-10-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>68</td>
+				         <td>68<a name="D"></a></td>
 				         <td>Dal bahadur Gurung <br/>Mrs. Dhanu Maya Gurung</td>
 				         <td>282</td>
 				         <td>Camberley</td>
@@ -1044,7 +1062,7 @@ $page = 'members';
 				         <td>24-04-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>120</td>
+				         <td>120<a name="E"></a></td>
 				         <td>Ek bahadur Gurung WO2<br/>Mrs. </span>Ram Kumari Gurung</td>
 				         <td>67</td>
 				         <td>Farnborough</td>
@@ -1052,7 +1070,7 @@ $page = 'members';
 				         <td>13-08-11</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>121</td>
+				         <td>121<a name="F"></a></td>
 				         <td>Fauda Thebe Dr.<br/>Mrs </td>
 				         <td>185</td>
 				         <td>
@@ -1070,7 +1088,7 @@ $page = 'members';
 				         <td>21-11-13</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>123</td>
+				         <td>123<a name="G"></a></td>
 				         <td>Gajendra Bahadur Gurung<br>Mrs Naina Kala Gurung</p>
 				         </td>
 				         <td>350</td>
@@ -1320,7 +1338,7 @@ $page = 'members';
 				         <td>&nbsp;</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>153</td>
+				         <td>153<a name="H"></a></td>
 				         <td>H.E. Dupsing Rinpoche (Trinley Rinpoche)</td>
 				         <td>217</td>
 				         <td>Denmark   </td>
@@ -1471,7 +1489,7 @@ $page = 'members';
 				         <td>29-08-14</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>171</td>
+				         <td>171<a name="I"></a></td>
 				         <td>Iman Gurung Capt (Retd)<br/>Mrs Pampha Gurung</td>
 				         <td>81</td>
 				         <td>Swindon</td>
@@ -1516,7 +1534,7 @@ $page = 'members';
 				         <td>&nbsp;</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>176</td>
+				         <td>176<a name="J"></a></td>
 				         <td>Jagan Gurung<br/>Mrs Rajani Gurung</td>
 				         <td>128</td>
 				         <td>Maidstone</td>
@@ -1613,7 +1631,7 @@ $page = 'members';
 				         <td>10-10-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>188</td>
+				         <td>188<a name="K"></a></td>
 				         <td><span class="T29">Kabiraj Ghising Tamang   <br/>Mrs. Shanty Tamang Ghising</td>
 				         <td>303</p>
 				         </td>
@@ -1973,7 +1991,7 @@ $page = 'members';
 				         <td>13-10-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>231</td>
+				         <td>231<a name="L"></a></td>
 				         <td><span class="T29">Lachhuman Gurung (Twin Brother)   <br/>Mrs. Devi Gurung</td>
 				         <td>305</p>
 				         </td>
@@ -2107,7 +2125,7 @@ $page = 'members';
 				         <td>24-10-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>246</td>
+				         <td>246<a name="M"></a></td>
 				         <td>Madhukar Gurung<br/>Mrs Purnima Gurung</td>
 				         <td>132</td>
 				         <td>Farnborough</td>
@@ -2279,7 +2297,7 @@ $page = 'members';
 				         <td>&nbsp;</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>268</td>
+				         <td>268<a name="N"></a></td>
 				         <td>Nabin Gurung<br/>Mrs Durga Gurung</td>
 				         <td>374</td>
 				         <td>Aldershot</td>
@@ -2467,7 +2485,7 @@ $page = 'members';
 				         <td>19-08-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>291</td>
+				         <td>291<a name="O"></a></td>
 				         <td>Om Gurung<br/>Mrs Yam Kumari Gurung (Dilu)</td>
 				         <td>13</td>
 				         <td>Reading, </td>
@@ -2491,7 +2509,7 @@ $page = 'members';
 				         <td>05-10-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>294</td>
+				         <td>294<a name="P"></a></td>
 				         <td>Padam Gurung Capt</p>Mrs Batti Gurung</p>
 				         </td>
 				         <td>317</p>
@@ -2737,7 +2755,7 @@ $page = 'members';
 				         <td>06-05-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>322</td>
+				         <td>322<a name="R"></a></td>
 				         <td>Rabindra Gurung &nbsp;Capt</p>Mrs. Swarnim Gurung</p>
 				         </td>
 				         <td>311</p>
@@ -3079,7 +3097,7 @@ $page = 'members';
 				         <td><span class="T40"><br/><span class="T40">18-02-13</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>357</td>
+				         <td>357<a name="S"></a></td>
 				         <td>Saduram Gurung</p>Mrs Mina Gurung</p>
 				         </td>
 				         <td>331</p>
@@ -3384,7 +3402,7 @@ $page = 'members';
 				         <td>30-0314</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>391</td>
+				         <td>391<a name="T"></a></td>
 				         <td>TaiKaji Gurung<br/>Mrs. Nina Gurung</td>
 				         <td>236</td>
 				         <td>Gillingham</td>
@@ -3507,7 +3525,7 @@ $page = 'members';
 				         <td>11-05-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>406</td>
+				         <td>406<a name="U"></a></td>
 				         <td>Udaya Bahadur Gurung MBE Maj<br/>Mrs &nbsp;Budhi Laxmi Gurung</td>
 				         <td>186</td>
 				         <td>Colchester</td>
@@ -3523,7 +3541,7 @@ $page = 'members';
 				         <td>04-10-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>408</td>
+				         <td>408<a name="V"></a></td>
 				         <td>Ven. Khenpo Vagindra Shila   </td>
 				         <td>257</td>
 				         <td>Nepal</td>
@@ -3531,7 +3549,7 @@ $page = 'members';
 				         <td>18-07-12</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>409</td>
+				         <td>409<a name="W"></a></td>
 				         <td>Wongchu Sherpa<br/>Mrs Malmu Sherpa</td>
 				         <td>189</td>
 				         <td>Tivorton, Devon</td>
@@ -3539,7 +3557,7 @@ $page = 'members';
 				         <td>31-05-13</td>
 				      </tr>
 				      <tr class="Table11">
-				         <td>410</td>
+				         <td>410<a name="Y"></a></td>
 				         <td>Yadav Gurung Lt (Retd)<br/>Mrs. Anita Gurung</td>
 				         <td>105</td>
 				         <td>Farnborough</td>
@@ -3585,7 +3603,7 @@ $page = 'members';
 				      </tr>
 				      <tr class="Table11">
 				         <td>415</td>
-				         <td>yogen Chhetri<br/>Mrs Rita Chhetri</td>
+				         <td>Yogen Chhetri<br/>Mrs Rita Chhetri</td>
 				         <td>368</td>
 				         <td>Ash Vale</td>
 				         <td>&pound;2001.00</td>
